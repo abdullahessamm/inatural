@@ -110,7 +110,7 @@ onMounted(() => {
         <video
           class="w-full h-full"
           style="object-fit: cover"
-          src="https://res.cloudinary.com/dbhf5jeep/video/upload/v1767115125/man-vid_jwnbw8.mp4"
+          src="https://res.cloudinary.com/dbhf5jeep/video/upload/v1767136255/man-vid_njkdhs.mp4"
           autoplay
           loop
           muted

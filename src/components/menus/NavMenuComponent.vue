@@ -10,10 +10,7 @@ defineEmits(['link:click'])
         <h2 class="text-xl">خط البيع</h2>
         <ul class="mt-2 mx-3 line-height-3 text-xl">
           <li>
-            <a href="#sales-section" @click="$emit('link:click')">الفروع على الخريطة</a>
-          </li>
-          <li>
-            <a href="#sales-booths-section" @click="$emit('link:click')">الأكشاك</a>
+            <a href="#sales-section" @click="$emit('link:click')">نقاط البيع (POS)</a>
           </li>
           <li>
             <a href="#sales-mt-section" @click="$emit('link:click')">MT Brands</a>
