@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --arabic-font-family: Calibri, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  --title-font-family: 'Outfit', sans-serif;
+
+  font-family: var(--arabic-font-family);
+}
+
+.title-font {
+  font-family: var(--title-font-family) !important;
+}
+
+.arabic-font {
+  font-family: var(--arabic-font-family) !important;
+}

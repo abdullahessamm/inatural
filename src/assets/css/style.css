@@ -1,0 +1,19 @@
+@import url('./reset.css');
+@import url('primeflex/primeflex.min.css');
+@import url('./colors.css');
+@import url('./fonts.css');
+@import url('leaflet/dist/leaflet.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  background-image: url("@assets/images/bg-texture.jpg");
+  background-attachment: fixed;
+  direction: rtl;
+}
