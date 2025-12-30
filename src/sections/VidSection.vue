@@ -88,15 +88,19 @@ onMounted(() => {
         <div class="content-wrapper text-center px-3">
           <h2
             ref="contentHRef"
-            class="text-primary text-4xl md:text-6xl font-bold arabic-font "
+            class="text-primary text-4xl md:text-6xl font-bold arabic-font"
           >
             التصنيع
           </h2>
-          <p ref="contentPRef" class="text-lg md:text-2xl mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sunt
-            neque expedita architecto, repellat tenetur sint distinctio modi
-            officiis nobis labore, nostrum suscipit impedit necessitatibus
-            doloremque accusamus! Repellat, adipisci. Veniam.
+          <p
+            ref="contentPRef"
+            class="text-lg md:text-2xl mt-5"
+            style="direction: rtl"
+          >
+            مصانع I Natural متخصصة في تصنيع حلول طبيعية عالية الجودة تُعد بديلًا
+            آمنًا وفعّالًا للمواد الكيميائية. نعتمد على مكونات نباتية مختارة
+            وتقنيات تصنيع دقيقة تضمن الأداء، الأمان، والاستدامة، لتقديم منتجات
+            طبيعية متكاملة تعبّر عن أسلوب حياة صحي وصديق للبيئة
           </p>
         </div>
       </div>
