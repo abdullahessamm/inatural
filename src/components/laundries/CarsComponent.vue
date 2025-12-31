@@ -39,22 +39,64 @@ onMounted(() => {
       </h2>
 
       <!-- cars images -->
-      <div class="flex flex-wrap justify-content-center gap-3 mt-5">
+      <div class="grid grid-nogutter mt-5">
+        <div class="col-12 md:col-6 px-2 flex justify-content-end">
+          <img
+            ref="car1"
+            src="https://res.cloudinary.com/dbhf5jeep/image/upload/v1767114939/back_s8my79.jpg"
+            loading="eager"
+            class="border-round-2xl shadow-2"
+            style="
+              opacity: 0;
+              transform: translateY(50px);
+              width: 100%;
+              max-width: 40rem;
+              object-fit: cover;
+            "
+          />
+        </div>
+        <div class="col-12 md:col-6 px-2 flex justify-content-start">
+          <img
+            ref="car2"
+            src="https://res.cloudinary.com/dbhf5jeep/image/upload/v1767114939/side_woloy7.jpg"
+            loading="eager"
+            class="border-round-2xl shadow-2"
+            style="
+              opacity: 0;
+              transform: translateY(50px);
+              width: 100%;
+              max-width: 40rem;
+              object-fit: cover;
+            "
+          />
+        </div>
+      </div>
+      <!-- <div class="flex flex-wrap justify-content-center gap-3 mt-5">
         <img
           ref="car1"
           src="https://res.cloudinary.com/dbhf5jeep/image/upload/v1767114939/back_s8my79.jpg"
           loading="eager"
           class="border-round-2xl shadow-2"
-          style="opacity: 0; transform: translateY(50px); max-width: 90%; width: 40rem;"
+          style="
+            opacity: 0;
+            transform: translateY(50px);
+            max-width: 90%;
+            width: 40rem;
+          "
         />
         <img
           ref="car2"
           src="https://res.cloudinary.com/dbhf5jeep/image/upload/v1767114939/side_woloy7.jpg"
           loading="eager"
           class="border-round-2xl shadow-2"
-          style="opacity: 0; transform: translateY(50px); max-width: 90%; width: 40rem;"
+          style="
+            opacity: 0;
+            transform: translateY(50px);
+            max-width: 90%;
+            width: 40rem;
+          "
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

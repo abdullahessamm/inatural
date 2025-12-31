@@ -63,7 +63,8 @@ onMounted(() => {
       <div ref="imgsContainer" class="flex justify-content-center w-full">
         <!-- images wrapper -->
         <div
-          class="images-wrapper relative w-25rem h-30rem border-round-3xl overflow-hidden"
+          class="images-wrapper relative w-15rem lg:w-20rem border-round-3xl overflow-hidden"
+          style="height: calc(80vh); max-height: 30rem;"
         >
           <img
             src="https://res.cloudinary.com/dbhf5jeep/image/upload/v1767115006/multi-purpose-cleaner2_spxdb8.png"

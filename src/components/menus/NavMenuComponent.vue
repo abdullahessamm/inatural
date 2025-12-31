@@ -3,11 +3,21 @@ defineEmits(['link:click'])
 </script>
 
 <template>
-  <div class="nav-menu-component w-full h-full flex justify-content-start md:flex-row gap-5">
+  <div class="nav-menu-component w-full h-full flex justify-content-start md:flex-row gap-5 overflow-auto">
     <div class="navs-wrapper px-5 py-5">
+      <div class="nav-group">
+        <h2 class="text-xl mt-5 text-white">
+          <a href="#products-section" @click="$emit('link:click')">المنتجات</a>
+        </h2>
+      </div>
+      <div class="nav-group">
+        <h2 class="text-xl mt-5 text-white">
+          <a href="#man-sec" @click="$emit('link:click')">التصنيع</a>
+        </h2>
+      </div>
       <!-- sale line -->
       <div class="nav-group">
-        <h2 class="text-xl">خط البيع</h2>
+        <h2 class="text-xl mt-5">خط البيع</h2>
         <ul class="mt-2 mx-3 line-height-3 text-xl">
           <li>
             <a href="#sales-section" @click="$emit('link:click')">نقاط البيع (POS)</a>
@@ -42,7 +52,7 @@ defineEmits(['link:click'])
         </ul>
       </div>
       <!-- others -->
-      <div class="nav-group mt-5">
+      <div class="nav-group mt-5 mb-5">
         <h2 class="text-xl">أخرى</h2>
         <ul class="mt-2 mx-3 line-height-3 text-xl">
           <li>

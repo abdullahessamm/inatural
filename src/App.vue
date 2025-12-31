@@ -222,7 +222,9 @@ onMounted(() => {
       </section>
 
       <!-- products section -->
-      <ProductsSection />
+      <section id="products-section" class="w-full">
+        <ProductsSection />
+      </section>
 
       <!-- man-section -->
       <section id="man-sec" class="w-full relative z-2">
